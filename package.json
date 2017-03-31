@@ -1,0 +1,31 @@
+{
+  "name": "jsx-util",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "https://www.github.com/sjohnsonaz/jsx-util.git",
+  "license": "MIT",
+  "author": "Sean Johnson <sjohnson@sjohnsonaz.com>",
+  "main": "dist/scripts/JSXUtil.js",
+  "typings": "dist/scripts/JSXUtil.d.ts",
+  "scripts": {
+    "start": "node ./dist/scripts/JSXUtil.js",
+    "install": "",
+    "build": "tsc",
+    "prepublish": "tsc --declaration",
+    "test": "node src/mocha/NodeRunner.js",
+    "min": "webpack --config webpack.config.js",
+    "dev": "webpack --config webpack.dev.config.js",
+    "watch": "webpack --config webpack.dev.config.js --watch",
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.40",
+    "chai": "^3.5.0",
+    "jsdom": "^9.12.0",
+    "mocha": "^3.2.0",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.1",
+    "webpack": "^2.3.1"
+  }
+}
