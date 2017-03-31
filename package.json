@@ -15,7 +15,7 @@
     "test": "node src/mocha/NodeRunner.js",
     "min": "webpack --config webpack.config.js",
     "dev": "webpack --config webpack.dev.config.js",
-    "watch": "webpack --config webpack.dev.config.js --watch",
+    "watch": "webpack --config webpack.dev.config.js --watch"
   },
   "dependencies": {},
   "devDependencies": {
